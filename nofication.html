@@ -1,0 +1,190 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>Title</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css.css">
+
+</head>
+
+<body>
+    <div class="container-fluid main-layout">
+        <div class="row h-100 ">
+            <div class="col-md-2 h-100 bg-success customize-layout-left d-flex flex-column">
+                <div class=" div-logo ">
+                    <a class="navbar-brand" href="#">
+                        <img src="./logon.png" alt="logo" class="img_log">
+                    </a>
+                </div>
+                <div class="bg-danger flex-grow-1 div-item">
+                    <ul class="nav navbar-nav h-100 d-flex flex-column align-items-start">
+                        <li class="li-item"><a class="a-item" href="#">
+                                <img src="./png/map .png" alt="" srcset="">
+                                <span class="span-text">Mới nhất</span></a>
+
+                        </li>
+                        <li class="li-item"><a class="a-item" href="#">
+                                <img src="./png/bell-ring.png" alt="" srcset="">
+                                <span class="span-text">Request</span></a>
+                        </li>
+                        <li class="li-item"><a class="a-item" href="#">
+                                <img src="./png/person.png" alt="" srcset="">
+                                <span class="span-text">Manager Team</span></a>
+                        </li>
+                        <li class="li-item"><a class="a-item" href="#">
+                                <img src="./png/increase.png" alt="" srcset="">
+                                <span class="span-text">Dashboard</span></a>
+                        </li>
+                        <li class="li-item "><a class="a-item" href="#">
+                                <img src="./png/info.png" alt="" srcset="">
+                                <span class="span-text">Help</span></a>
+                        </li>
+                        <li class="li-item"><a class="a-item" href="#">
+                                <img src="./png/maintenance.png" alt="" srcset="">
+                                <span class="span-text">Setting</span></a>
+                        </li>
+                        <li class="li-item mt-auto"><a class="a-item " href="#">
+                                <img src="./png/logout.png" alt="" srcset="">
+                                <span class="span-text">Exit</span></a>
+                        </li>
+                    </ul>
+
+                </div>
+            </div>
+
+            <div class="col-md-10 h-100 customize-layout-right d-flex flex-column">
+                <div class=" div-head d-flex justify-content-between flex-wrap">
+                    <div class="div-head-lef p-2">
+                      <h3 style="color:blanchedalmond;"><i class="fa fa-home ct-icon" aria-hidden="true"></i>
+                            Notification</h3>
+                    </div>
+                    <div class="div-head-right d-flex justify-content-between">
+                        <img class="img-center" src="./png/avatar.jpg" alt="">
+                        <div class="well-name">
+                            <p class="wellcome d-flex">
+                                <span>Wellcome</span> 
+                                <i class="fa fa-sort-desc btn-option "  aria-hidden="true"></i></p>
+                            <p class="center-name">Công an Quận Thanh Khê</p>
+                        </div>
+                       
+
+                    </div>
+                </div>
+                <div class="flex-grow-1 map">
+                    <div class="contain">
+                        <ul class="nav nav-tabs ul-height" role="tablist">
+                            <li class="nav-item">
+                                <a class="nav-link active" data-toggle="tab" href="#home">Mới nhất</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" data-toggle="tab" href="#menu1">Gần đây</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" data-toggle="tab" href="#menu2">Tháng qua</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" data-toggle="tab" href="#menu2">Trước nữa</a>
+                            </li>
+                        </ul>
+                        <div class=" tab-content tab-container">
+                            <div id="home" class="container tab-pane active">
+                                <div class="list-group contact-group">
+                                        <div id="list" class="wrap-ct clearfix">
+                                            <div class="circle"><img class="user-img" src="./png/avatar.jpg" alt=""></div>
+                                            <div class="user-info">
+                                                <p class="user-name" >Đầu Cắt Moi</p>
+                                                <p class="time">8:30AM | 20-11-2011</p>
+                                                <p class="user-address"><i class="fa fa-map-marker" style="font-size: 27px;" aria-hidden="true"></i> <a href="">03 Hoàng Tương, Thanh Ba, Phú Thọ</a></p>
+                                                <span class="reques-title">Request Information:</span>
+                                                <p class="request-info">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eaque dolor vel animi excepturi? Saepe optio odio ab distinctio cupiditate quae corrupti mollitia aspernatur nobis. Autem!.</p>
+                                                </p>
+                                                <span onclick="deleted()" id="hide" class="util-btn"><i  class="fa fa-eye" aria-hidden="true"></i></span>
+                                            </div>
+                                        </div>
+                                        <div class="wrap-ct clearfix">
+                                            <div class="circle"><img class="user-img" src="./png/avatar.jpg" alt=""></div>
+                                            <div class="user-info">
+                                                <p class="user-name" >Nguyễn Văn Tào</p>
+                                                <p class="time">8:30AM | 20/11/2011</p>
+                                                <p class="user-title">Tôi đang gặp tai nạn. Xin hãy đến đây giúp tôi</p>
+                                                <p class="user-address"> <i class="fa fa-map-marker" style="font-size: 30px;" aria-hidden="true"></i> <a href="">03 Hoàng Tương, Thanh Ba, Phú Thọ</a>
+                                                </p>
+                                                <span class="util-btn">&#8942;</span>
+                                            </div>
+                                        </div>
+                                        <div class="wrap-ct clearfix">
+                                            <div class="circle"><img class="user-img" src="./png/avatar.jpg" alt=""></div>
+                                            <div class="user-info">
+                                                <p class="user-name" >Nguyễn Văn Tào</p>
+                                                <p class="time">8:30AM | 20/11/2011</p>
+                                                <p class="user-title">Tôi đang gặp tai nạn. Xin hãy đến đây giúp tôi</p>
+                                                <p class="user-address"> <i class="fa fa-map-marker" style="font-size: 30px;" aria-hidden="true"></i> <a href="">03 Hoàng Tương, Thanh Ba, Phú Thọ</a>
+                                                </p>
+                                                <span class="util-btn">&#8942;</span>
+                                            </div>
+                                        </div>
+                                        <div class="wrap-ct clearfix">
+                                            <div class="circle"><img class="user-img" src="./png/avatar.jpg" alt=""></div>
+                                            <div class="user-info">
+                                                <p class="user-name" >Nguyễn Văn Tào</p>
+                                                <p class="time">8:30AM | 20/11/2011</p>
+                                                <p class="user-title">Tôi đang gặp tai nạn. Xin hãy đến đây giúp tôi</p>
+                                                <p class="user-address"> <i class="fa fa-map-marker" style="font-size: 30px;" aria-hidden="true"></i> <a href="">03 Hoàng Tương, Thanh Ba, Phú Thọ</a>
+                                                </p>
+                                                <span class="util-btn">&#8942;</span>
+                                            </div>
+                                        </div>
+
+                                 
+                                </div>
+                            </div>
+                            <div id="menu1" class="container tab-pane fade"><br>
+                                <h3>Menu 1</h3>
+                                <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
+                                    ea
+                                    commodo consequat.</p>
+                            </div>
+                            <div id="menu2" class="container tab-pane fade"><br>
+                                <h3>Menu 2</h3>
+                                <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque
+                                    laudantium, totam rem aperiam.</p>
+                            </div>
+                            <h5>You are at the bottom of the page</h5>
+
+                        </div>
+                    </div>
+                
+
+
+                </div>
+
+            </div>
+
+
+        </div>
+    </div>
+    </div>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script>
+        function deleted(){
+            console.log("hello");
+    let a = document.getElementById("hide");
+    let b = document.getElementById("hide");
+    a.innerHTML ="<i  class='fa fa-eye-slash' aria-hidden='true'></i>";
+	setTimeout(()=>{$("#list").fadeOut(500);},200)
+}
+    </script>
+
+
+
+
+</body>
+
+</html>

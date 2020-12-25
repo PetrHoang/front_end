@@ -1,0 +1,282 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>Title</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css.css">
+
+
+</head>
+
+<body>
+    <div class="container-fluid main-layout">
+        <div class="row h-100 ">
+            <div class="col-md-2 h-100 bg-success customize-layout-left d-flex flex-column">
+                <div class=" div-logo ">
+                    <a class="navbar-brand" href="#">
+                        <img src="./logon.png" alt="logo" class="img_log">
+                    </a>
+                </div>
+                <div class="bg-danger flex-grow-1 div-item">
+                    <ul class="nav navbar-nav h-100 d-flex flex-column align-items-start">
+                        <li class="li-item"><a class="a-item" href="#">
+                                <img src="./png/map .png" alt="" srcset="">
+                                <span class="span-text">Home</span></a>
+
+                        </li>
+                        <li class="li-item"><a class="a-item" href="#">
+                                <img src="./png/bell-ring.png" alt="" srcset="">
+                                <span class="span-text">Request</span></a>
+                        </li>
+                        <li class="li-item"><a class="a-item" href="#">
+                                <img src="./png/person.png" alt="" srcset="">
+                                <span class="span-text">Manager Team</span></a>
+                        </li>
+                        <li class="li-item"><a class="a-item" href="#">
+                                <img src="./png/increase.png" alt="" srcset="">
+                                <span class="span-text">Dashboard</span></a>
+                        </li>
+                        <li class="li-item "><a class="a-item" href="#">
+                                <img src="./png/info.png" alt="" srcset="">
+                                <span class="span-text">Help</span></a>
+                        </li>
+                        <li class="li-item"><a class="a-item" href="#">
+                                <img src="./png/maintenance.png" alt="" srcset="">
+                                <span class="span-text">Setting</span></a>
+                        </li>
+                        <li class="li-item mt-auto"><a class="a-item " href="#">
+                                <img src="./png/logout.png" alt="" srcset="">
+                                <span class="span-text">Exit</span></a>
+                        </li>
+                    </ul>
+
+                </div>
+            </div>
+
+            <div class="col-md-10 h-100 customize-layout-right d-flex flex-column">
+                <div class="h-10 div-head d-flex align-content-between flex-wrap">
+                    <div class="div-head-lef p-2">
+                        <span class="span-title"><i class="fa fa-home ct-icon" aria-hidden="true"></i> Manager Team</span>
+                    </div>
+                    <div class="div-head-right d-flex">
+                        <a href=# target="_blank" rel="noopener noreferrer">
+                            Img and center name
+                        </a>
+                    </div>
+                </div>
+                <div class="flex-grow-1 map">
+                    <div class="contain">
+                        <ul class="nav nav-tabs ul-height" role="tablist">
+                            <li class="nav-item">
+                                <a class="nav-link active" data-toggle="tab" href="#team1">Team 1</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" data-toggle="tab" href="#2team2">Team 2</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" data-toggle="tab" href="#team3">Team 3</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" data-toggle="tab" href="#menu"><i class="fa fa-plus" aria-hidden="true"></i></a>
+                            </li>
+                            <div class="d-flex flex-row changeName ">
+                                <input class="i_name" type="text">
+                                <button class="btn_saveName btn btn-success">Save</button>
+                            </div>
+                        </ul>
+                        <div class=" tab-content tab-container">
+                            <div id="team1" class="container tab-pane active">
+                                <div class="row row-cols-sm-2 row-cols-1 row-cols-md-3 row-cols-lg-4 gutters-sm">
+                           
+                                    <div class="col mb-3">
+                                        <div class="card rotate">
+                                            <img src="https://via.placeholder.com/340x120/FFB6C1/000000" alt="Cover"
+                                                class="card-img-top">
+                                            <div class="card-body pb-0 text-center">
+                                                <img src="https://bootdey.com/img/Content/avatar/avatar7.png"
+                                                    style="width:100px;margin-top:-65px" alt="User"
+                                                    class="img-fluid img-thumbnail rounded-circle border-0 mb-1">
+                                                <div class="text-secondary  mb-4">
+                                                        <label for="input3" class="edit_right"><i class="fa fa-pencil" aria-hidden="true"></i></label>
+                                                        <input id="input3" value="Doctor Thanh" class=""></input>
+                                                </div>
+                                                <div class="text-secondary mb-1"><span class="absolute">Phone:</span>
+                                                    <label for="input1" class="edit_right"><i class="fa fa-pencil" aria-hidden="true"></i></label>
+                                                    <input value="0123456789" id="input1" class="m-left"/>
+                                                </div>
+                                                <div class="text-secondary mb-2"><span class="absolute">Position:</span>
+                                                    <label for="input2" class="edit_right"><i class="fa fa-pencil" aria-hidden="true"></i></label>
+                                                    <input id="input2" value="Doctor Thanh" class="m-left"></input>
+                                                </div>
+                                            </div>
+                                            <div class="btn btn-group"
+                                                style="border-top:1px solid rgba(83, 77, 77, 0.158);">
+                                                <button type="button" name="" id="btn_save" class="btn btn-warning btn-md"><i
+                                                        class="fa fa-trash-o" aria-hidden="true"></i> Xóa</button>
+                                                <button type="button" name="" id="btn_edit" class="btn btn-success btn-md"><i
+                                                        class="fa fa-pencil-square-o" aria-hidden="true"></i>
+                                                    Edit</button>
+
+                                            </div>
+                                        </div>
+                                   
+                                    </div>
+                                 
+                                    <div class="col h-100  mb-3">
+                                        <div class=" w-100 h-75 mt-auto  "><Button style="background-color: transparent;" class="border-0"><img class=" addnewbtn w-75"  src="./png/addn.png" alt=""></Button></a></div>
+                                    </div>
+                                   
+                                </div>
+                            </div>
+                            <div id="2team2" class="container tab-pane ">
+                                <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-xl-4 gutters-sm">
+                                    <div class="col mb-3">
+                                        <div class="card">
+                                            <img src="https://via.placeholder.com/340x120/FFB6C1/000000" alt="Cover"
+                                                class="card-img-top">
+                                            <div class="card-body pb-0 text-center">
+                                                <img src="https://bootdey.com/img/Content/avatar/avatar7.png"
+                                                    style="width:100px;margin-top:-65px" alt="User"
+                                                    class="img-fluid img-thumbnail rounded-circle border-0 mb-3">
+                                                <h5 class="card-title">John Doe</h5>
+                                                <p class="text-secondary mb-1">Full Stack Developer</p>
+                                                <p class="text-muted font-size-sm">Bay Area, San Francisco, CA</p>
+                                            </div>
+                                            <div class="btn btn-group"
+                                                style="border-top:1px solid rgba(83, 77, 77, 0.158);">
+                                                <button type="button" name="" id="" class="btn btn-warning btn-md"><i
+                                                        class="fa fa-trash-o" aria-hidden="true"></i> Xóa</button>
+                                                <button type="button" name="" id="" class="btn btn-success btn-md"><i
+                                                        class="fa fa-pencil-square-o" aria-hidden="true"></i>
+                                                    Edit</button>
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col mb-3">
+                                        <div class="card">
+                                            <img src="https://via.placeholder.com/340x120/87CEFA/000000" alt="Cover"
+                                                class="card-img-top">
+                                            <div class="card-body pb-0 text-center">
+                                                <img src="https://bootdey.com/img/Content/avatar/avatar1.png"
+                                                    style="width:100px;margin-top:-65px" alt="User"
+                                                    class="img-fluid img-thumbnail rounded-circle border-0 mb-3">
+                                                <h5 class="card-title">John Doe</h5>
+                                                <p class="text-secondary mb-1">Full Stack Developer</p>
+                                                <p class="text-muted font-size-sm">Bay Area, San Francisco, CA</p>
+                                            </div>
+                                            <div class="btn btn-group"
+                                                style="border-top:1px solid rgba(83, 77, 77, 0.158);">
+                                                <button type="button" name="" id="" class="btn btn-warning btn-md"><i
+                                                        class="fa fa-trash-o" aria-hidden="true"></i> Xóa</button>
+                                                <button type="button" name="" id="" class="btn btn-success btn-md"><i
+                                                        class="fa fa-pencil-square-o" aria-hidden="true"></i>
+                                                    Edit</button>
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col mb-3">
+                                        <div class="card">
+                                            <img src="https://via.placeholder.com/340x120/20B2AA/000000" alt="Cover"
+                                                class="card-img-top">
+                                            <div class="card-body pb-0 text-center">
+                                                <img src="https://bootdey.com/img/Content/avatar/avatar2.png"
+                                                    style="width:100px;margin-top:-65px" alt="User"
+                                                    class="img-fluid img-thumbnail rounded-circle border-0 mb-3">
+                                                <h5 class="card-title">John Doe</h5>
+                                                <p class="text-secondary mb-1">Full Stack Developer</p>
+                                                <p class="text-muted font-size-sm">Bay Area, San Francisco, CA</p>
+                                            </div>
+                                            <div class="btn btn-group"
+                                                style="border-top:1px solid rgba(83, 77, 77, 0.158);">
+                                                <button type="button" name="" id="" class="btn btn-warning btn-md"><i
+                                                        class="fa fa-trash-o" aria-hidden="true"></i> Xóa</button>
+                                                <button type="button" name="" id="" class="btn btn-success btn-md"><i
+                                                        class="fa fa-pencil-square-o" aria-hidden="true"></i>
+                                                    Edit</button>
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col mb-3">
+                                        <div class="card">
+                                            <img src="https://via.placeholder.com/340x120/FFA07A/000000" alt="Cover"
+                                                class="card-img-top">
+                                            <div class="card-body pb-0 text-center">
+                                                <img src="https://bootdey.com/img/Content/avatar/avatar3.png"
+                                                    style="width:100px;margin-top:-65px" alt="User"
+                                                    class="img-fluid img-thumbnail rounded-circle border-0 mb-3">
+                                                <h5 class="card-title">John Doe</h5>
+                                                <p class="text-secondary mb-1">Full Stack Developer</p>
+                                                <p class="text-muted font-size-sm">Bay Area, San Francisco, CA</p>
+                                            </div>
+                                            <div class="btn btn-group"
+                                                style="border-top:1px solid rgba(83, 77, 77, 0.158);">
+                                                <button type="button" name="" id="" class="btn btn-warning btn-md"><i
+                                                        class="fa fa-trash-o" aria-hidden="true"></i> Xóa</button>
+                                                <button type="button" name="" id="" class="btn btn-success btn-md"><i
+                                                        class="fa fa-pencil-square-o" aria-hidden="true"></i>
+                                                    Edit</button>
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            
+                            </div>
+                            <div id="team3" class="container tab-pane fade"><br>
+                                <h3>Menu 2</h3>
+                                <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque
+                                    laudantium, totam rem aperiam.</p>
+                            </div>
+                        <h5>You are at the bottom of the page</h5>
+
+                        </div>
+                    </div>
+                <!--     <div class="form-modal">
+                        <div>
+                            <button type="button" class="cts-btn-close"><i class="fa fa-times" aria-hidden="true"></i></button>
+                            <div class="form-group ">
+                             <label class="cts-label" for="name">Name</label>
+                             <input type="text" class="form-control" id="email" placeholder="Enter email" name="name">
+                             </div>
+                          <div class="form-group  ">
+                            <label  class="cts-label" for="phone">Phone number:</label>
+                            <input type="text" class="form-control" id="phone" placeholder="Enter password" name="phone">
+                          </div>
+                          <div class="form-group  ">
+                            <label  class="cts-label" for="position">Position:</label>
+                            <input type="text" class="form-control" id="position" placeholder="Enter password" name="position">
+                          </div>
+                         <div class="form-group d-flex flex-row justify-content-around mt-4 position-relative mb-0 mx-auto">
+                          <button type="button" class="btn w-50 mr-4 ml-2  btn-primary">Cancle</button>
+                          <button type="button" class="btn w-50 mr-2 btn-success">Add</button>
+                         </div>
+                        </div>
+                    </div> -->
+
+                </div>
+
+            </div>
+
+
+        </div>
+    </div>
+    </div>
+    </div>
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script>
+
+    </script>
+</body>     
+
+</html>

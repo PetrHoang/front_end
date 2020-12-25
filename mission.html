@@ -1,0 +1,154 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>Title</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="signal.css">
+    <link rel="stylesheet" href="effect.css">
+    <link rel="stylesheet" href="css.css">
+
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"
+        integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A=="
+        crossorigin="" />
+    <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"
+        integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA=="
+        crossorigin=""></script>
+
+
+</head>
+
+<body>
+    <div class="container-fluid main-layout">
+        <div class="row h-100 ">
+            <div class="col-md-2 h-100 bg-success customize-layout-left d-flex flex-column">
+                <div class=" div-logo ">
+                    <a class="navbar-brand" href="#">
+                        <img src="./logon.png" alt="logo" class="img_log">
+                    </a>
+                </div>
+                <div class=" flex-grow-1 div-item">
+                    <ul class="nav navbar-nav h-100 d-flex flex-column align-items-start">
+                        <li class="li-item">
+                            <a class="a-item" href="#">
+                            </a>
+                            <img src="./png/map .png" alt="" srcset="">
+                            <span class="span-text">Home</span>
+
+                        </li>
+                        <li class="li-item"><a class="a-item" ></a>
+                                <img style="width:31px; height: 31px" src="./png/history-icon-png-4662.png" alt="" srcset="">
+                                <span class="span-text">History</span>
+                        </li>
+                        <li class="li-item"><a class="a-item" href="#"></a>
+                                <img src="./png/person.png" alt="" srcset="">
+                                <span class="span-text">Manager Team</span>
+                        </li>
+                        <li class="li-item"><a class="a-item" href="#"></a>
+                                <img src="./png/increase.png" alt="" srcset="">
+                                <span class="span-text">Dashboard</span>
+                        </li>
+                        <li class="li-item "><a class="a-item" href="#"></a>
+                                <img src="./png/info.png" alt="" srcset="">
+                                <span class="span-text">Help</span>
+                        </li>
+                        <li class="li-item"><a class="a-item" href="#"></a>
+                                <img src="./png/maintenance.png" alt="" srcset="">
+                                <span class="span-text">Setting</span>
+                        </li>
+                        <li class="li-item mt-auto"><a class="a-item " href="#"></a>
+                                <img src="./png/logout.png" alt="" srcset="">
+                                <span class="span-text">Exit</span>
+                        </li>
+                    </ul>
+
+                </div>
+            </div>
+
+            <div class="col-md-10 h-100 customize-layout-right d-flex flex-column">
+                <div class="div-head d-flex justify-content-between flex-wrap">
+                    <div class="div-head-lef p-2">
+                        <h3 style="color:whitesmoke;"><i class="fa fa-home ct-icon" aria-hidden="true"></i>
+                            Home</h3>
+                    </div>
+                    <div class="ml-auto mr-2" style="margin-top: 9px;">
+                        <label class="switch">
+                            <input type="checkbox" checked>
+                            <span class="slider round"></span>
+                        </label>
+                    </div>
+                    <div class="div-head-right d-flex justify-content-between">
+                        <img class="img-center" src="./png/avatar.jpg" alt="">
+                        <div class="well-name">
+                            <p class="wellcome d-flex">
+                                <span>Wellcome</span>
+                                <i class="fa fa-sort-desc btn-option " aria-hidden="true"></i></p>
+                            <p class="center-name">Công an Quận Thanh Khê</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="flex-grow-1 map">
+                    <div id="mapid" style="width: 100%; height: 100%"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+        <div class="authority_form">
+           <h4 class="author_title">AUTHORITY</h4>
+           <div class="container_team px-2 mb-0 mt-0">
+               <div class="team rounded-pill">
+                  <div class="p-1 ml-2 mr-1 bg-white rounded-circle"> <img class="png_team" src="./png/best-employee.png" alt=""></div>
+                    <div class="team_name">
+                        <p style="font-size: 14px;" class="p-0 mt-2 ml-1 font-weight-bold mb-0">Team 1</p>
+                        <span style="font-size: 10px;position: relative; left:2px;top:-6px; padding-top: 3px;padding-bottom: 3px;" class="px-2 span_status bg-success text-white rounded-pill ">Ready</span>
+                    </div>
+                    <img class="mx-auto" src="./png/giphy1.gif" style="height: 25px;" alt="">
+                    <button class="authority ml-auto p-2 btn-success border-0 mr-2 rounded-circle " ><img class="img_author" style="width: 24px; height: 24px;" src="./png/direct-selection.png" alt=""></button>
+               </div>
+        </div>
+        </div>
+    </div>
+
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+    <script src="js.js"></script> 
+    <script>
+        window.onload = function(){
+    console.log("hihihi");
+    var items =document.getElementsByClassName("li-item");
+	Array.from(items).forEach(item=>{
+	item.addEventListener('click',function(){
+		Array.from(items).forEach(item=>{
+			item.classList.remove("active");
+		})
+		item.classList.add("active");
+        $("#gg" ).trigger("click");
+	})
+})
+$("#gg" ).on("click",function(){
+    console.log("xxxxxxxxx");
+})
+
+	document.getElementById("modal").addEventListener('click',function(){
+		console.log("hii");
+		$("#modal").fadeOut();
+	})
+	
+}   
+    </script>
+
+</body>
+
+</html>
